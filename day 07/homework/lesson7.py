@@ -24,6 +24,16 @@ print(all_side)
 #youre num. again.
 num = float(input("please enter youre choosen number: "))
 print(num > 100 and num % 9)
+#____________________________________
+#lets try to use "And" and "Or" operator
+
+plate = int(input("how many plates are on the shelf ?: "))
+print(plate > 10 or plate < 10)
+
+plate1 = int(input("how many plates are on the shelf ?: "))
+print(plate > 10 and plate < 10)
+
+
 
 
 
